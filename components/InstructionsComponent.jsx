@@ -39,7 +39,7 @@ function InstructionsComponent({userLanguage}) {
 		<div className={styles.container}>
 			<header className={styles.header_container}>
 				<h1>
-					Pizza <span>Studio</span>
+					一块 <span>拼图</span>
 				</h1>
 				<p>
 					{studioIntro}
@@ -80,19 +80,6 @@ function InstructionsComponent({userLanguage}) {
 				</a>
 				<a
 					target={"_blank"}
-					href={"https://hsrdict.pizzastudio.org"}
-				>
-					<div className={styles.button}>
-						{/* <img
-							src="https://static.alchemyapi.io/images/cw3d/Icon%20Large/file-eye-01-l.svg"
-							width={"20px"}
-							height={"20px"}
-						/> */}
-						<p>{hsrdictName}</p>
-					</div>
-				</a>
-				<a
-					target={"_blank"}
 					href={"https://download.pizzastudio.org/ba"}
 				>
 					<div className={styles.button}>
@@ -114,27 +101,9 @@ function InstructionsComponent({userLanguage}) {
 						alt="Alchemy Supercharged"
 					/>
 				</a> */}
-				<div className={styles.icons_container}>
-					<div>
-						<a
-							href="https://github.com/pizza-studio"
-							target={"_blank"}
-						>
-							{followGithub}
-						</a>
-					</div>
-					<div>
-						<a
-							href="https://twitter.com/@Haku_Bill"
-							target={"_blank"}
-						>
-							{followTwitter}
-						</a>
-					</div>
-				</div>
 			</div>
 			<div className={styles.copyright}>
-				<p>Copyright © 2022-2023 Pizza Studio</p>
+				<p>桂ICP备2023009538号-1</p>
 			</div>
 		</div>
 	);
