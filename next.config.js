@@ -18,6 +18,7 @@ const nextConfig = {
 module.exports = {
 	env: {
 	},
+	output: 'standalone',
 };
 
 module.exports = nextConfig;
