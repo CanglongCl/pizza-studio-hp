@@ -103,7 +103,8 @@ function InstructionsComponent({userLanguage}) {
 				</a> */}
 			</div>
 			<div className={styles.copyright}>
-				<p>桂ICP备2023009538号-1</p>
+				<a href="https://beian.miit.gov.cn/" target={"_blank"}>
+				<p>桂ICP备2023009538号-1</p></a>
 			</div>
 		</div>
 	);
